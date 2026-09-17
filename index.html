@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+  <main class="page">
+    <section class="frame">
+      <div class="hero">
+        <div>
+          <p class="eyebrow">Together with their families</p>
+          <h1>
+            Kim
+            <span class="ampersand">&amp;</span>
+            Trieu
+          </h1>
+          <p class="date">Monday · 28 September 2026</p>
+        </div>
+      </div>
+
+      <div class="break">
+        <p>We would be delighted to celebrate our wedding day with you.</p>
+      </div>
+
+      <div class="details">
+        <article class="event">
+          <div class="event-number">01</div>
+          <h2>Ceremony</h2>
+
+          <div class="detail-row">
+            <span class="label">Time</span>
+            <span class="value">10:00 AM</span>
+          </div>
+
+          <div class="detail-row">
+            <span class="label">Venue</span>
+            <span class="value">Sacred Heart Church</span>
+          </div>
+
+          <div class="detail-row">
+            <span class="label">Address</span>
+            <span class="value">16 Vermont Street, Ponsonby<br>Auckland 1011</span>
+          </div>
+        </article>
+
+        <article class="event">
+          <div class="event-number">02</div>
+          <h2>Reception</h2>
+
+          <div class="detail-row">
+            <span class="label">Time</span>
+            <span class="value">7:00 PM</span>
+          </div>
+
+          <div class="detail-row">
+            <span class="label">Venue</span>
+            <span class="value">Lucky Star Restaurant</span>
+          </div>
+
+          <div class="detail-row">
+            <span class="label">Address</span>
+            <span class="value">125 Great South Road, Papatoetoe<br>Auckland 2025</span>
+            <span class="value" style="font-size:0.8rem"><i>More parking available at Eric Baker Pl</i></span>
+          </div>
+        </article>
+      </div>
+
+      <div class="break">
+        <p>There is no dress code.<br>
+        Bride's outfits: Western white dress at wedding ceremony. Traditional ao dai at dinner reception.</p>
+      </div>
+
+      <section class="gallery-section">
+        <p class="gallery-kicker">A few moments</p>
+        <h2 class="gallery-title">Our Gallery</h2>
+
+        <!--
+          To use your own photos, replace each data:image... value below with
+          a photo filename or URL, for example: src="photo1.jpg"
+        -->
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="1.jpg" alt="Wedding gallery photo 1">
+          </figure>
+          <figure class="gallery-item">
+            <img src="2.jpg" alt="Wedding gallery photo 2">
+          </figure>
+          <figure class="gallery-item">
+            <img src="4.jpg" alt="Wedding gallery photo 3">
+          </figure>
+          <figure class="gallery-item">
+            <img src="3.jpg" alt="Wedding gallery photo 4">
+          </figure>
+        </div>
+      </section>
+
+      <section class="schedule-section" aria-labelledby="schedule-title">
+        <p class="schedule-kicker">The celebration</p>
+        <h2 class="schedule-title" id="schedule-title">Wedding Day Schedule</h2>
+
+        <!-- Update the times and descriptions below to match your wedding day. -->
+        <ol class="schedule-list">
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="2027-02-14T10:00">9:45 AM</time>
+            <div>
+              <span class="schedule-event">Guest Arrival</span>
+              <span class="schedule-detail">Please arrive and take your seats.</span>
+            </div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="2027-02-14T10:00">10:00 AM</time>
+            <div>
+              <span class="schedule-event">Wedding Ceremony</span>
+              <span class="schedule-detail">Sacred Heart Church</span>
+            </div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="2027-02-14T11:00">11:00 AM</time>
+            <div>
+              <span class="schedule-event">Lunch &amp; Snack</span>
+              <span class="schedule-detail">At the hall near the church.</span>
+            </div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="2027-02-14T12:00">12:00 PM</time>
+            <div>
+              <span class="schedule-event">Break</span>
+              <span class="schedule-detail">Go home.</span>
+            </div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="2027-02-14T19:00">7:00 PM</time>
+            <div>
+              <span class="schedule-event">Dinner Reception</span>
+              <span class="schedule-detail">Lucky Star Restaurant</span>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <footer class="footer">We can’t wait to celebrate with you.</footer>
+    </section>
+  </main>
+</body>
+</html>
